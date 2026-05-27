@@ -23,13 +23,15 @@ pipeline {
         stage('Run JMeter Performance Tests') {
             steps {
                 bat '''
-                if exist report rmdir /s /q report
-                if exist results.jtl del results.jtl
+                set JMETER_HOME=%JMETER_HOME%
+
+                if exist jmeter\\html-report rmdir /s /q jmeter\\html-report
+                if exist jmeter\\results\\result_01.jtl del jmeter\\results\\result_01.jtl
 
                 jmeter -n ^
-                -t src\\test\\resources\\jmeter\\test-plans\\notes_load_test.jmx ^
-                -l results.jtl ^
-                -e -o report
+                -t "%WORKSPACE%\\jmeter\\test-plans\\notes_load_test.jmx" ^
+                -l "%WORKSPACE%\\jmeter\\results\\result_01.jtl" ^
+                -e -o "%WORKSPACE%\\jmeter\\html-report\\run1"
                 '''
             }
         }
@@ -47,24 +49,23 @@ pipeline {
     post {
 
         always {
-
             junit '**/target/surefire-reports/*.xml'
 
             archiveArtifacts artifacts: '''
                 target/**,
                 test-output/**,
-                report/**,
-                results.jtl,
+                jmeter/html-report/**,
+                jmeter/results/**,
                 screenshots/**
             ''', fingerprint: true
         }
 
         success {
-            echo 'BUILD SUCCESS  All tests passed'
+            echo 'BUILD SUCCESS - All tests passed'
         }
 
         failure {
-            echo 'BUILD FAILED  Check logs'
+            echo 'BUILD FAILED - Check logs'
         }
     }
 }
