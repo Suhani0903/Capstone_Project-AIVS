@@ -1,0 +1,201 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779778473887,2789,HTTP Request,200,OK,Thread Group 1-2,text,true,,12443,618,7,7,https://practice.expandtesting.com/hovers,467,0,311
+1779778473887,473,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,,true,,148,295,7,7,http://practice.expandtesting.com/users/login,467,0,311
+1779778474363,1482,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,654,164,7,7,https://practice.expandtesting.com/users/login,1482,0,955
+1779778475845,831,HTTP Request-2,200,OK,Thread Group 1-2,text,true,,11641,159,7,7,https://practice.expandtesting.com/hovers,827,0,0
+1779778473565,3553,HTTP Request,200,OK,Thread Group 1-1,text,true,,12443,618,8,8,https://practice.expandtesting.com/hovers,789,0,633
+1779778473565,795,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,,true,,148,295,8,8,http://practice.expandtesting.com/users/login,789,0,633
+1779778474363,1482,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,654,164,8,8,https://practice.expandtesting.com/users/login,1482,0,954
+1779778475846,1272,HTTP Request-2,200,OK,Thread Group 1-1,text,true,,11641,159,8,8,https://practice.expandtesting.com/hovers,823,0,0
+1779778474386,2944,HTTP Request,200,OK,Thread Group 1-3,text,true,,12443,618,8,8,https://practice.expandtesting.com/hovers,383,0,212
+1779778474386,383,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,,true,,148,295,8,8,http://practice.expandtesting.com/users/login,383,0,212
+1779778474770,1075,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,654,164,8,8,https://practice.expandtesting.com/users/login,1074,0,547
+1779778475845,1485,HTTP Request-2,200,OK,Thread Group 1-3,text,true,,11641,159,8,8,https://practice.expandtesting.com/hovers,825,0,0
+1779778474885,2809,HTTP Request,200,OK,Thread Group 1-4,text,true,,12443,618,9,9,https://practice.expandtesting.com/hovers,332,0,127
+1779778474885,332,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,,true,,148,295,9,9,http://practice.expandtesting.com/users/login,332,0,127
+1779778475219,1447,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,654,164,9,9,https://practice.expandtesting.com/users/login,1447,0,383
+1779778476667,1027,HTTP Request-2,200,OK,Thread Group 1-4,text,true,,11641,159,9,9,https://practice.expandtesting.com/hovers,751,0,0
+1779778476742,1185,HTTP Request,200,OK,Thread Group 1-2,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,331,0,0
+1779778476742,331,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,331,0,0
+1779778477074,344,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,344,0,0
+1779778477419,508,HTTP Request-2,200,OK,Thread Group 1-2,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,411,0,0
+1779778475387,2803,HTTP Request,200,OK,Thread Group 1-5,text,true,,12443,618,10,10,https://practice.expandtesting.com/hovers,389,0,198
+1779778475387,389,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,,true,,148,295,10,10,http://practice.expandtesting.com/users/login,389,0,198
+1779778475778,1845,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,654,164,10,10,https://practice.expandtesting.com/users/login,1845,0,1310
+1779778477623,567,HTTP Request-2,200,OK,Thread Group 1-5,text,true,,11641,159,10,10,https://practice.expandtesting.com/hovers,421,0,0
+1779778477121,1165,HTTP Request,200,OK,Thread Group 1-1,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,203,0,0
+1779778477121,203,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,203,0,0
+1779778477325,380,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,380,0,0
+1779778477706,580,HTTP Request-2,200,OK,Thread Group 1-1,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,482,0,0
+1779778475884,2524,HTTP Request,200,OK,Thread Group 1-6,text,true,,12443,618,10,10,https://practice.expandtesting.com/hovers,1190,0,781
+1779778475884,1190,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,,true,,148,295,10,10,http://practice.expandtesting.com/users/login,1190,0,781
+1779778477075,753,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,654,164,10,10,https://practice.expandtesting.com/users/login,753,0,367
+1779778477829,579,HTTP Request-2,200,OK,Thread Group 1-6,text,true,,11641,159,10,10,https://practice.expandtesting.com/hovers,408,0,0
+1779778476388,2329,HTTP Request,200,OK,Thread Group 1-7,text,true,,12443,618,10,10,https://practice.expandtesting.com/hovers,824,0,685
+1779778476388,824,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,,true,,148,295,10,10,http://practice.expandtesting.com/users/login,824,0,685
+1779778477214,974,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,654,164,10,10,https://practice.expandtesting.com/users/login,974,0,494
+1779778478189,528,HTTP Request-2,200,OK,Thread Group 1-7,text,true,,11641,159,10,10,https://practice.expandtesting.com/hovers,522,0,0
+1779778476887,1973,HTTP Request,200,OK,Thread Group 1-8,text,true,,12443,618,10,10,https://practice.expandtesting.com/hovers,435,0,228
+1779778476887,435,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,,true,,148,295,10,10,http://practice.expandtesting.com/users/login,435,0,228
+1779778477324,863,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,654,164,10,10,https://practice.expandtesting.com/users/login,863,0,391
+1779778478187,673,HTTP Request-2,200,OK,Thread Group 1-8,text,true,,11641,159,10,10,https://practice.expandtesting.com/hovers,519,0,0
+1779778477699,1305,HTTP Request,200,OK,Thread Group 1-4,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,184,0,0
+1779778477699,184,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,184,0,0
+1779778477884,472,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,472,0,0
+1779778478356,648,HTTP Request-2,200,OK,Thread Group 1-4,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,605,0,0
+1779778477933,1071,HTTP Request,200,OK,Thread Group 1-2,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,111,0,0
+1779778477933,111,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,111,0,0
+1779778478044,398,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,398,0,0
+1779778478442,562,HTTP Request-2,200,OK,Thread Group 1-2,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,520,0,0
+1779778477336,1770,HTTP Request,200,OK,Thread Group 1-3,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,355,0,0
+1779778477336,355,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,355,0,0
+1779778477698,489,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,489,0,0
+1779778478187,919,HTTP Request-2,200,OK,Thread Group 1-3,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,777,0,0
+1779778477387,2040,HTTP Request,200,OK,Thread Group 1-9,text,true,,12443,618,10,10,https://practice.expandtesting.com/hovers,496,0,304
+1779778477387,496,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,,true,,148,295,10,10,http://practice.expandtesting.com/users/login,496,0,304
+1779778478194,1234,HTTP Request,200,OK,Thread Group 1-5,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,221,0,0
+1779778478194,221,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,221,0,0
+1779778478415,550,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,550,0,0
+1779778478966,463,HTTP Request-2,200,OK,Thread Group 1-5,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,463,0,0
+1779778477884,1081,HTTP Request-1,302,Found,Thread Group 1-9,text,true,,654,164,10,10,https://practice.expandtesting.com/users/login,1081,0,315
+1779778478966,462,HTTP Request-2,200,OK,Thread Group 1-9,text,true,,11641,159,10,10,https://practice.expandtesting.com/hovers,422,0,0
+1779778478288,1191,HTTP Request,200,OK,Thread Group 1-1,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,154,0,0
+1779778478288,154,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,154,0,0
+1779778478442,520,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,520,0,0
+1779778478963,517,HTTP Request-2,200,OK,Thread Group 1-1,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,466,0,0
+1779778478722,3572,HTTP Request,200,OK,Thread Group 1-7,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,244,0,0
+1779778478722,244,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,244,0,0
+1779778478966,411,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,411,0,0
+1779778479383,2911,HTTP Request-2,200,OK,Thread Group 1-7,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,2849,0,0
+1779778478869,3721,HTTP Request,200,OK,Thread Group 1-8,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,152,0,0
+1779778477897,4692,HTTP Request,200,OK,Thread Group 1-10,text,true,,12443,618,10,10,https://practice.expandtesting.com/hovers,339,0,145
+1779778478869,152,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,152,0,0
+1779778477897,339,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,,true,,148,295,10,10,http://practice.expandtesting.com/users/login,339,0,145
+1779778479022,458,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,458,0,0
+1779778478237,768,HTTP Request-1,302,Found,Thread Group 1-10,text,true,,654,164,10,10,https://practice.expandtesting.com/users/login,768,0,367
+1779778479480,3110,HTTP Request-2,200,OK,Thread Group 1-8,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,3109,0,0
+1779778479019,3571,HTTP Request-2,200,OK,Thread Group 1-10,text,true,,11641,159,10,10,https://practice.expandtesting.com/hovers,461,0,0
+1779778479018,3733,HTTP Request,200,OK,Thread Group 1-4,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,189,0,0
+1779778479018,189,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,189,0,0
+1779778479210,2868,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,2868,0,0
+1779778482078,673,HTTP Request-2,200,OK,Thread Group 1-4,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,672,0,0
+1779778478415,4547,HTTP Request,200,OK,Thread Group 1-6,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,179,0,0
+1779778478415,179,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,179,0,0
+1779778478595,515,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,514,0,0
+1779778479111,3851,HTTP Request-2,200,OK,Thread Group 1-6,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,372,0,0
+1779778479432,3732,HTTP Request,200,OK,Thread Group 1-9,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,2594,0,0
+1779778479432,2594,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,2594,0,0
+1779778482026,410,HTTP Request-1,302,Found,Thread Group 1-9,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,410,0,0
+1779778482436,728,HTTP Request-2,200,OK,Thread Group 1-9,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,525,0,0
+1779778479431,3733,HTTP Request,200,OK,Thread Group 1-5,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,2646,0,0
+1779778479431,2646,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,2646,0,0
+1779778482078,358,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,358,0,0
+1779778482437,727,HTTP Request-2,200,OK,Thread Group 1-5,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,524,0,0
+1779778479482,3683,HTTP Request,200,OK,Thread Group 1-1,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,2544,0,0
+1779778479482,2544,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,2544,0,0
+1779778482026,410,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,410,0,0
+1779778482436,729,HTTP Request-2,200,OK,Thread Group 1-1,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,525,0,0
+1779778479013,4151,HTTP Request,200,OK,Thread Group 1-2,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,196,0,0
+1779778479013,196,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,196,0,0
+1779778479210,3379,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,3379,0,0
+1779778482592,572,HTTP Request-2,200,OK,Thread Group 1-2,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,370,0,0
+1779778482296,1113,HTTP Request,200,OK,Thread Group 1-7,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,296,0,0
+1779778482296,296,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,296,0,0
+1779778482593,369,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,369,0,0
+1779778482962,447,HTTP Request-2,200,OK,Thread Group 1-7,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,408,0,0
+1779778482591,1087,HTTP Request,200,OK,Thread Group 1-10,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,99,0,0
+1779778482591,99,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,99,0,0
+1779778482690,476,HTTP Request-1,302,Found,Thread Group 1-10,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,476,0,0
+1779778483166,512,HTTP Request-2,200,OK,Thread Group 1-10,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,406,0,0
+1779778482752,965,HTTP Request,200,OK,Thread Group 1-4,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,98,0,0
+1779778482752,98,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,98,0,0
+1779778482851,356,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,356,0,0
+1779778483208,509,HTTP Request-2,200,OK,Thread Group 1-4,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,409,0,0
+1779778482591,1127,HTTP Request,200,OK,Thread Group 1-8,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,99,0,0
+1779778482591,99,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,99,0,0
+1779778482690,474,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,473,0,0
+1779778483164,554,HTTP Request-2,200,OK,Thread Group 1-8,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,407,0,0
+1779778482964,1109,HTTP Request,200,OK,Thread Group 1-6,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,202,0,0
+1779778482964,202,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,202,0,0
+1779778483166,405,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,405,0,0
+1779778483572,501,HTTP Request-2,200,OK,Thread Group 1-6,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,418,0,0
+1779778483168,1066,HTTP Request,200,OK,Thread Group 1-2,text,true,,12443,594,10,10,https://practice.expandtesting.com/hovers,96,0,0
+1779778483168,96,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,,true,,148,287,10,10,http://practice.expandtesting.com/users/login,96,0,0
+1779778483264,453,HTTP Request-1,302,Found,Thread Group 1-2,text,true,,654,156,10,10,https://practice.expandtesting.com/users/login,453,0,0
+1779778483717,517,HTTP Request-2,200,OK,Thread Group 1-2,text,true,,11641,151,10,10,https://practice.expandtesting.com/hovers,457,0,0
+1779778483165,1113,HTTP Request,200,OK,Thread Group 1-9,text,true,,12443,594,9,9,https://practice.expandtesting.com/hovers,99,0,0
+1779778483166,1112,HTTP Request,200,OK,Thread Group 1-1,text,true,,12443,594,9,9,https://practice.expandtesting.com/hovers,99,0,0
+1779778483166,99,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,,true,,148,287,9,9,http://practice.expandtesting.com/users/login,99,0,0
+1779778483165,99,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,,true,,148,287,9,9,http://practice.expandtesting.com/users/login,99,0,0
+1779778483265,451,HTTP Request-1,302,Found,Thread Group 1-1,text,true,,654,156,9,9,https://practice.expandtesting.com/users/login,451,0,0
+1779778483265,451,HTTP Request-1,302,Found,Thread Group 1-9,text,true,,654,156,9,9,https://practice.expandtesting.com/users/login,451,0,0
+1779778483716,562,HTTP Request-2,200,OK,Thread Group 1-1,text,true,,11641,151,9,9,https://practice.expandtesting.com/hovers,458,0,0
+1779778483716,562,HTTP Request-2,200,OK,Thread Group 1-9,text,true,,11641,151,9,9,https://practice.expandtesting.com/hovers,458,0,0
+1779778483165,1184,HTTP Request,200,OK,Thread Group 1-5,text,true,,12443,594,8,8,https://practice.expandtesting.com/hovers,99,0,0
+1779778483165,99,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,,true,,148,287,8,8,http://practice.expandtesting.com/users/login,99,0,0
+1779778483264,452,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,654,156,8,8,https://practice.expandtesting.com/users/login,452,0,0
+1779778483716,633,HTTP Request-2,200,OK,Thread Group 1-5,text,true,,11641,151,8,8,https://practice.expandtesting.com/hovers,460,0,0
+1779778483410,973,HTTP Request,200,OK,Thread Group 1-7,text,true,,12443,594,8,8,https://practice.expandtesting.com/hovers,162,0,0
+1779778483410,162,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,,true,,148,287,8,8,http://practice.expandtesting.com/users/login,162,0,0
+1779778483572,347,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,654,156,8,8,https://practice.expandtesting.com/users/login,347,0,0
+1779778483919,464,HTTP Request-2,200,OK,Thread Group 1-7,text,true,,11641,151,8,8,https://practice.expandtesting.com/hovers,430,0,0
+1779778483679,1170,HTTP Request,200,OK,Thread Group 1-10,text,true,,12443,594,8,8,https://practice.expandtesting.com/hovers,240,0,0
+1779778483718,1131,HTTP Request,200,OK,Thread Group 1-4,text,true,,12443,594,8,8,https://practice.expandtesting.com/hovers,201,0,0
+1779778483679,240,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,,true,,148,287,8,8,http://practice.expandtesting.com/users/login,240,0,0
+1779778483718,201,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,,true,,148,287,8,8,http://practice.expandtesting.com/users/login,201,0,0
+1779778483919,431,HTTP Request-1,302,Found,Thread Group 1-10,text,true,,654,156,8,8,https://practice.expandtesting.com/users/login,431,0,0
+1779778483919,429,HTTP Request-1,302,Found,Thread Group 1-4,text,true,,654,156,8,8,https://practice.expandtesting.com/users/login,429,0,0
+1779778484350,499,HTTP Request-2,200,OK,Thread Group 1-10,text,true,,11641,151,8,8,https://practice.expandtesting.com/hovers,450,0,0
+1779778484348,501,HTTP Request-2,200,OK,Thread Group 1-4,text,true,,11641,151,8,8,https://practice.expandtesting.com/hovers,390,0,0
+1779778483720,1185,HTTP Request,200,OK,Thread Group 1-8,text,true,,12443,594,7,7,https://practice.expandtesting.com/hovers,198,0,0
+1779778483720,198,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,,true,,148,287,7,7,http://practice.expandtesting.com/users/login,198,0,0
+1779778483919,429,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,654,156,7,7,https://practice.expandtesting.com/users/login,429,0,0
+1779778484348,557,HTTP Request-2,200,OK,Thread Group 1-8,text,true,,11641,151,7,7,https://practice.expandtesting.com/hovers,452,0,0
+1779778479118,5987,HTTP Request,200,OK,Thread Group 1-3,text,true,,12443,594,7,7,https://practice.expandtesting.com/hovers,197,0,0
+1779778479118,197,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,,true,,148,287,7,7,http://practice.expandtesting.com/users/login,197,0,0
+1779778479316,5222,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,654,156,7,7,https://practice.expandtesting.com/users/login,5222,0,0
+1779778484538,567,HTTP Request-2,200,OK,Thread Group 1-3,text,true,,11641,151,7,7,https://practice.expandtesting.com/hovers,403,0,0
+1779778484074,1093,HTTP Request,200,OK,Thread Group 1-6,text,true,,12443,594,7,7,https://practice.expandtesting.com/hovers,156,0,0
+1779778484074,156,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,,true,,148,287,7,7,http://practice.expandtesting.com/users/login,156,0,0
+1779778484230,354,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,654,156,7,7,https://practice.expandtesting.com/users/login,354,0,0
+1779778484584,583,HTTP Request-2,200,OK,Thread Group 1-6,text,true,,11641,151,7,7,https://practice.expandtesting.com/hovers,521,0,0
+1779778484280,1086,HTTP Request,200,OK,Thread Group 1-9,text,true,,12443,594,7,7,https://practice.expandtesting.com/hovers,103,0,0
+1779778484280,103,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,,true,,148,287,7,7,http://practice.expandtesting.com/users/login,103,0,0
+1779778484383,465,HTTP Request-1,302,Found,Thread Group 1-9,text,true,,654,156,7,7,https://practice.expandtesting.com/users/login,465,0,0
+1779778484848,518,HTTP Request-2,200,OK,Thread Group 1-9,text,true,,11641,151,7,7,https://practice.expandtesting.com/hovers,504,0,0
+1779778484385,1122,HTTP Request,200,OK,Thread Group 1-7,text,true,,12443,594,7,7,https://practice.expandtesting.com/hovers,199,0,0
+1779778484385,199,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,,true,,148,287,7,7,http://practice.expandtesting.com/users/login,199,0,0
+1779778484584,409,HTTP Request-1,302,Found,Thread Group 1-7,text,true,,654,156,7,7,https://practice.expandtesting.com/users/login,409,0,0
+1779778484994,513,HTTP Request-2,200,OK,Thread Group 1-7,text,true,,11641,151,7,7,https://practice.expandtesting.com/hovers,372,0,0
+1779778484350,1217,HTTP Request,200,OK,Thread Group 1-5,text,true,,12443,594,6,6,https://practice.expandtesting.com/hovers,188,0,0
+1779778484350,188,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,,true,,148,287,6,6,http://practice.expandtesting.com/users/login,188,0,0
+1779778484538,567,HTTP Request-1,302,Found,Thread Group 1-5,text,true,,654,156,6,6,https://practice.expandtesting.com/users/login,567,0,0
+1779778485106,461,HTTP Request-2,200,OK,Thread Group 1-5,text,true,,11641,151,6,6,https://practice.expandtesting.com/hovers,407,0,0
+1779778484906,1019,HTTP Request,200,OK,Thread Group 1-8,text,true,,12443,594,5,5,https://practice.expandtesting.com/hovers,199,0,0
+1779778484906,199,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,,true,,148,287,5,5,http://practice.expandtesting.com/users/login,199,0,0
+1779778485106,401,HTTP Request-1,302,Found,Thread Group 1-8,text,true,,654,156,5,5,https://practice.expandtesting.com/users/login,401,0,0
+1779778485507,418,HTTP Request-2,200,OK,Thread Group 1-8,text,true,,11641,151,5,5,https://practice.expandtesting.com/hovers,361,0,0
+1779778484850,1134,HTTP Request,200,OK,Thread Group 1-10,text,true,,12443,594,4,4,https://practice.expandtesting.com/hovers,143,0,0
+1779778484850,143,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,,true,,148,287,4,4,http://practice.expandtesting.com/users/login,143,0,0
+1779778484993,373,HTTP Request-1,302,Found,Thread Group 1-10,text,true,,654,156,4,4,https://practice.expandtesting.com/users/login,373,0,0
+1779778485366,618,HTTP Request-2,200,OK,Thread Group 1-10,text,true,,11641,151,4,4,https://practice.expandtesting.com/hovers,560,0,0
+1779778485106,1239,HTTP Request,200,OK,Thread Group 1-3,text,true,,12443,594,4,4,https://practice.expandtesting.com/hovers,246,0,0
+1779778485106,246,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,,true,,148,287,4,4,http://practice.expandtesting.com/users/login,246,0,0
+1779778485352,516,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,654,156,4,4,https://practice.expandtesting.com/users/login,516,0,0
+1779778485868,477,HTTP Request-2,200,OK,Thread Group 1-3,text,true,,11641,151,4,4,https://practice.expandtesting.com/hovers,406,0,0
+1779778485367,1220,HTTP Request,200,OK,Thread Group 1-9,text,true,,12443,594,4,4,https://practice.expandtesting.com/hovers,304,0,0
+1779778485367,304,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,,true,,148,287,4,4,http://practice.expandtesting.com/users/login,304,0,0
+1779778485671,452,HTTP Request-1,302,Found,Thread Group 1-9,text,true,,654,156,4,4,https://practice.expandtesting.com/users/login,452,0,0
+1779778486123,464,HTTP Request-2,200,OK,Thread Group 1-9,text,true,,11641,151,4,4,https://practice.expandtesting.com/hovers,423,0,0
+1779778485167,1477,HTTP Request,200,OK,Thread Group 1-6,text,true,,12443,594,3,3,https://practice.expandtesting.com/hovers,504,0,0
+1779778485167,504,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,,true,,148,287,3,3,http://practice.expandtesting.com/users/login,504,0,0
+1779778485671,452,HTTP Request-1,302,Found,Thread Group 1-6,text,true,,654,156,3,3,https://practice.expandtesting.com/users/login,452,0,0
+1779778486123,521,HTTP Request-2,200,OK,Thread Group 1-6,text,true,,11641,151,3,3,https://practice.expandtesting.com/hovers,423,0,0
+1779778485985,1006,HTTP Request,200,OK,Thread Group 1-10,text,true,,12443,594,2,2,https://practice.expandtesting.com/hovers,138,0,0
+1779778485985,138,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,,true,,148,287,2,2,http://practice.expandtesting.com/users/login,138,0,0
+1779778486123,417,HTTP Request-1,302,Found,Thread Group 1-10,text,true,,654,156,2,2,https://practice.expandtesting.com/users/login,417,0,0
+1779778486540,451,HTTP Request-2,200,OK,Thread Group 1-10,text,true,,11641,151,2,2,https://practice.expandtesting.com/hovers,359,0,0
+1779778486346,1210,HTTP Request,200,OK,Thread Group 1-3,text,true,,12443,594,1,1,https://practice.expandtesting.com/hovers,298,0,0
+1779778486346,298,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,,true,,148,287,1,1,http://practice.expandtesting.com/users/login,298,0,0
+1779778486645,346,HTTP Request-1,302,Found,Thread Group 1-3,text,true,,654,156,1,1,https://practice.expandtesting.com/users/login,346,0,0
+1779778486991,565,HTTP Request-2,200,OK,Thread Group 1-3,text,true,,11641,151,1,1,https://practice.expandtesting.com/hovers,474,0,0

@@ -1,0 +1,1857 @@
+2026-05-27 13:47:12 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:47:15 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:47:40 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:47:42 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:52:59 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 13:53:29 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 13:53:30 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 13:53:30 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 13:53:30 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 13:53:30 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 13:53:35 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:53:39 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 13:53:40 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:53:41 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 13:53:50 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 13:53:54 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:53:55 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 13:53:56 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 13:53:57 INFO  pages.NotesPage - Entered note title
+2026-05-27 13:53:58 INFO  pages.NotesPage - Entered note description
+2026-05-27 13:53:58 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 13:53:59 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:53:59 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 13:54:03 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 13:54:03 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 13:54:04 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 13:54:04 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 13:54:05 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:54:05 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 13:54:07 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:54:07 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 13:54:08 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 13:54:08 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 13:54:09 INFO  pages.NotesPage - Note created successfully
+2026-05-27 13:54:09 INFO  pages.NotesPage - Note found in UI: TestNote_17b5f
+2026-05-27 13:54:09 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 13:54:16 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 13:54:19 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:24 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 13:54:24 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 13:54:26 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 13:54:26 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 13:54:28 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:34 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 13:54:34 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 13:54:34 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:34 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:37 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 13:54:37 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 13:54:37 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:38 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:38 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:54:39 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 13:54:39 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 13:54:39 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 13:54:41 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 13:54:41 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 13:54:41 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:42 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:43 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 13:54:43 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 13:54:43 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:44 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:45 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 13:54:45 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 13:54:45 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:45 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:46 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:54:46 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 13:54:46 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 13:54:46 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 13:54:46 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 13:54:46 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 13:54:47 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:54:48 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 13:54:48 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 13:55:00 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 13:55:05 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:55:05 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 13:55:06 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 13:55:06 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 13:55:10 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:55:10 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 13:55:11 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 13:55:11 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 13:55:12 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:55:25 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 13:55:28 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 13:55:28 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 13:55:30 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 13:55:36 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 13:55:36 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 13:55:38 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 13:55:39 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 13:55:43 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:55:43 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 13:55:48 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:55:49 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 13:55:56 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:55:57 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:55:58 WARN  listeners.TestListener - TEST SKIPPED: registerAndLoginTest
+2026-05-27 13:55:58 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 13:55:59 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 13:55:59 INFO  pages.NotesPage - Entered note title
+2026-05-27 13:55:59 INFO  pages.NotesPage - Entered note description
+2026-05-27 13:55:59 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 13:56:04 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 13:56:06 INFO  pages.NotesPage - Note created successfully
+2026-05-27 13:56:06 INFO  pages.NotesPage - Note found in UI: Test Note 1_0e6fc513
+2026-05-27 13:56:06 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_0e6fc513
+2026-05-27 13:56:06 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 13:56:07 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:56:08 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:56:08 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 13:56:11 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:56:11 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 13:56:12 INFO  tests.e2e.UiApiValidationTest - API response time: 581 ms
+2026-05-27 13:56:13 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 13:56:13 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 13:56:13 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 13:56:13 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 13:56:14 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 13:56:14 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 13:56:15 INFO  pages.NotesPage - Entered note title
+2026-05-27 13:56:16 INFO  pages.NotesPage - Entered note description
+2026-05-27 13:56:17 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 13:56:40 ERROR pages.NotesPage - Note not found in UI: Test Note 1_0e6fc513
+2026-05-27 13:56:40 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 13:56:48 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 13:56:48 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 13:56:48 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 13:56:50 ERROR pages.NotesPage - Note not found in UI: Test Note 1_0e6fc513
+2026-05-27 13:56:50 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 13:56:51 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 13:56:53 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:56:53 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 13:57:04 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 13:57:04 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 13:57:05 INFO  pages.NotesPage - Note created successfully
+2026-05-27 13:57:05 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 13:57:05 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779870338909
+2026-05-27 13:57:05 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 13:57:05 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 13:57:06 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 13:57:12 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 13:57:13 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:57:13 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 13:57:15 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:57:15 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 13:57:15 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 13:57:25 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 13:57:31 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 13:57:32 INFO  pages.LoginPage - Login Successful
+2026-05-27 13:57:35 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 13:57:35 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 13:57:36 INFO  pages.NotesPage - Entered note title
+2026-05-27 13:57:36 INFO  pages.NotesPage - Entered note description
+2026-05-27 13:57:36 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 13:57:43 INFO  pages.NotesPage - Note created successfully
+2026-05-27 13:57:43 INFO  pages.NotesPage - Note found in UI: Test Note 2_142d360c
+2026-05-27 13:57:43 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_142d360c
+2026-05-27 13:57:43 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 13:57:46 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 13:57:47 INFO  tests.e2e.UiApiValidationTest - API response time: 1913 ms
+2026-05-27 13:57:48 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 13:57:49 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 13:57:51 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 13:58:07 ERROR pages.NotesPage - Note not found in UI: Test Note 2_142d360c
+2026-05-27 13:58:07 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 13:58:18 ERROR pages.NotesPage - Note not found in UI: Test Note 2_142d360c
+2026-05-27 13:58:18 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 13:58:18 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 13:58:19 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 16:35:11 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 16:35:11 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 16:35:11 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 16:35:11 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: verifyCreateNote
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: emptyLoginValidationTest
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: validateGetNotes
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: validateGetNotes
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: updateNote
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: updateNote
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: deleteNote
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:35:12 WARN  listeners.TestListener - TEST SKIPPED: deleteNote
+2026-05-27 16:35:12 ERROR listeners.TestListener - TEST FAILED: updateNote
+2026-05-27 16:35:12 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:35:12 ERROR listeners.TestListener - TEST FAILED: validateGetNotes
+2026-05-27 16:35:12 ERROR listeners.TestListener - TEST FAILED: updateNote
+2026-05-27 16:35:12 ERROR listeners.TestListener - TEST FAILED: validateGetNotes
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: deleteNote
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: deleteNote
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: createNoteWithoutTitle
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: verifyGetNotesResponseTime
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: createNoteTest
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: createNoteWithoutTitle
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: createNoteWithoutTitle
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: createNoteWithoutTitle
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: verifyGetNotesResponseTime
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: createNoteTest
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: verifyGetNotesResponseTime
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: verifyGetNotesResponseTime
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: createNoteTest
+2026-05-27 16:35:13 ERROR listeners.TestListener - TEST FAILED: createNoteTest
+2026-05-27 16:35:13 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 16:35:13 WARN  listeners.TestListener - TEST SKIPPED: registerAndLoginTest
+2026-05-27 16:35:15 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:35:15 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 16:35:15 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:35:15 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 16:36:02 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 16:36:03 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 16:36:03 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 16:36:03 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: emptyLoginValidationTest
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: verifyCreateNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: validateGetNotes
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: validateGetNotes
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: validateGetNotes
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: validateGetNotes
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: updateNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: deleteNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: updateNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: createNoteTest
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: deleteNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: createNoteTest
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: updateNote
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: updateNote
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: deleteNote
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: deleteNote
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: createNoteWithoutTitle
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: createNoteTest
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: createNoteTest
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: verifyGetNotesResponseTime
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: verifyGetNotesResponseTime
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: createNoteWithoutTitle
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: verifyGetNotesResponseTime
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: verifyGetNotesResponseTime
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: createNoteWithoutTitle
+2026-05-27 16:36:04 ERROR listeners.TestListener - TEST FAILED: createNoteWithoutTitle
+2026-05-27 16:36:04 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 16:36:04 WARN  listeners.TestListener - TEST SKIPPED: registerAndLoginTest
+2026-05-27 16:36:07 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:36:07 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 16:36:07 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:36:07 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 16:42:45 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:42:48 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:43:06 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 16:43:24 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 16:43:25 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 16:43:25 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 16:43:26 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 16:43:26 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 16:43:36 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 16:43:38 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:43:40 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 16:43:43 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:43:44 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:43:44 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 16:43:45 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 16:43:45 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 16:43:47 INFO  pages.NotesPage - Entered note title
+2026-05-27 16:43:50 INFO  pages.NotesPage - Entered note description
+2026-05-27 16:43:51 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 16:44:01 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:44:01 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 16:44:02 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 16:44:02 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 16:44:02 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 16:44:02 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 16:44:03 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:44:03 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 16:44:05 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:44:05 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 16:44:06 INFO  pages.NotesPage - Note created successfully
+2026-05-27 16:44:06 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 16:44:06 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 16:44:06 INFO  pages.NotesPage - Note found in UI: TestNote_edbc1
+2026-05-27 16:44:06 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 16:44:08 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 16:44:12 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:18 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:28 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 16:44:28 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 16:44:28 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:29 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:31 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 16:44:31 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 16:44:31 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:32 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:34 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 16:44:34 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 16:44:34 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:34 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 16:44:34 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 16:44:35 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 16:44:35 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 16:44:35 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:36 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 16:44:36 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 16:44:36 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:37 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 16:44:37 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 16:44:37 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:38 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 16:44:38 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 16:44:38 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:39 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:39 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 16:44:39 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 16:44:40 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 16:44:40 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 16:44:40 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 16:44:40 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:44:41 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 16:44:47 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:44:48 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 16:44:52 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:44:53 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 16:45:00 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 16:45:06 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:45:06 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 16:45:12 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:45:12 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 16:45:13 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:45:13 INFO  tests.e2e.UiApiValidationTest - Starting UI ↔ API validation flow
+2026-05-27 16:45:14 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 16:45:14 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 16:45:15 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 16:45:16 INFO  pages.NotesPage - Entered note title
+2026-05-27 16:45:16 INFO  pages.NotesPage - Entered note description
+2026-05-27 16:45:17 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:45:17 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 16:45:17 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 16:45:20 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:45:21 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:45:21 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 16:45:22 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 16:45:22 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 16:45:25 INFO  pages.NotesPage - Note created successfully
+2026-05-27 16:45:25 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 16:45:25 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779880477641
+2026-05-27 16:45:25 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 16:45:25 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 16:45:34 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 16:45:34 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 16:45:34 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 16:45:34 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 16:45:39 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:45:44 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:45:46 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 16:45:46 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 16:45:46 INFO  pages.NotesPage - Entered note title
+2026-05-27 16:45:47 INFO  pages.NotesPage - Entered note description
+2026-05-27 16:45:47 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 16:45:47 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:45:48 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 16:45:52 INFO  pages.NotesPage - Note created successfully
+2026-05-27 16:45:52 INFO  pages.NotesPage - Note found in UI: Test Note 1_b521d071
+2026-05-27 16:45:52 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_b521d071
+2026-05-27 16:45:52 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 16:45:52 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:45:54 INFO  tests.e2e.UiApiValidationTest - API response time: 422 ms
+2026-05-27 16:45:54 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 16:45:55 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 16:45:55 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 16:46:00 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 16:46:03 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:46:03 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 16:46:04 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:46:04 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 16:46:04 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 16:46:11 ERROR pages.NotesPage - Note not found in UI: Test Note 1_b521d071
+2026-05-27 16:46:11 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 16:46:21 ERROR pages.NotesPage - Note not found in UI: Test Note 1_b521d071
+2026-05-27 16:46:21 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 16:46:23 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 16:46:30 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:46:30 INFO  tests.e2e.UiApiValidationTest - Starting UI ↔ API validation flow
+2026-05-27 16:46:35 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:46:47 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 16:46:49 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:46:50 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:47:05 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 16:47:12 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 16:47:12 INFO  tests.e2e.UiApiValidationTest - Starting UI ↔ API validation flow
+2026-05-27 16:47:21 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 16:47:32 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 16:47:35 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 16:47:37 INFO  pages.LoginPage - Login Successful
+2026-05-27 16:47:39 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 16:47:39 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 16:47:39 INFO  pages.NotesPage - Entered note title
+2026-05-27 16:47:40 INFO  pages.NotesPage - Entered note description
+2026-05-27 16:47:40 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 16:47:44 INFO  pages.NotesPage - Note created successfully
+2026-05-27 16:47:44 INFO  pages.NotesPage - Note found in UI: Test Note 2_fd903ff7
+2026-05-27 16:47:44 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_fd903ff7
+2026-05-27 16:47:44 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 16:47:44 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 16:47:45 INFO  tests.e2e.UiApiValidationTest - API response time: 451 ms
+2026-05-27 16:47:45 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 16:47:46 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 16:47:46 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 16:48:41 ERROR pages.NotesPage - Note not found in UI: Test Note 2_fd903ff7
+2026-05-27 16:48:41 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 16:48:51 ERROR pages.NotesPage - Note not found in UI: Test Note 2_fd903ff7
+2026-05-27 16:48:51 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 16:48:51 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 16:48:53 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 17:01:45 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 17:02:09 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 17:02:09 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 17:02:10 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 17:02:19 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:02:23 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 17:02:27 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:02:27 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 17:02:31 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 17:02:31 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 17:02:31 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 17:02:31 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 17:02:35 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 17:02:37 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:02:39 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:02:39 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:02:40 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:02:40 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:02:40 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:02:51 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:02:51 INFO  pages.NotesPage - Note found in UI: TestNote_d0910
+2026-05-27 17:02:51 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 17:03:16 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 17:03:16 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 17:03:16 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 17:03:16 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 17:03:17 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 17:03:18 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 17:03:24 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:03:24 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 17:03:24 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:03:24 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 17:03:27 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:03:27 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 17:03:30 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:03:30 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 17:03:30 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 17:03:30 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 17:03:31 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 17:03:32 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:03:36 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 17:03:39 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:03:39 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 17:03:41 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:03:41 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 17:03:42 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 17:03:43 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:03:43 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:03:43 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:03:45 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:03:45 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:03:48 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:03:48 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 17:03:48 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779881598179
+2026-05-27 17:03:48 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 17:03:48 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 17:03:51 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 17:03:51 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:03:56 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:21 WARN  listeners.TestListener - TEST SKIPPED: validateGetNotes
+2026-05-27 17:04:21 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 17:04:21 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:21 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:22 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 17:04:22 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 17:04:22 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:23 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:25 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 17:04:25 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 17:04:25 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:25 WARN  listeners.TestListener - TEST SKIPPED: updateNote
+2026-05-27 17:04:25 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 17:04:25 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:25 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:25 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:26 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 17:04:26 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 17:04:26 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:27 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 17:04:27 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 17:04:27 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:27 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:27 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:27 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 17:04:27 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 17:04:27 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:04:28 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 17:04:28 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:04:28 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 17:04:28 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 17:04:29 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 17:04:40 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 17:04:40 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 17:04:41 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 17:04:50 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:04:50 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 17:04:50 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 17:04:50 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 17:04:53 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:05:05 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 17:05:05 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:05:05 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 17:05:08 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 17:05:08 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:05:08 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 17:05:08 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 17:05:12 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:05:13 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:05:15 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:05:15 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:05:16 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:05:16 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:05:16 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:05:19 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:05:20 INFO  pages.NotesPage - Note found in UI: Test Note 1_70736bfb
+2026-05-27 17:05:20 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_70736bfb
+2026-05-27 17:05:20 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 17:05:20 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:05:22 INFO  tests.e2e.UiApiValidationTest - API response time: 445 ms
+2026-05-27 17:05:22 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 17:05:23 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 17:05:23 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 17:05:34 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 17:05:34 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 17:05:35 ERROR pages.NotesPage - Note not found in UI: Test Note 1_70736bfb
+2026-05-27 17:05:35 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:05:46 ERROR pages.NotesPage - Note not found in UI: Test Note 1_70736bfb
+2026-05-27 17:05:46 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:05:46 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 17:05:53 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 17:05:53 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 17:05:58 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:06:10 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 17:06:12 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:06:13 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:06:15 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:06:15 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 17:06:16 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:06:16 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:06:16 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:06:19 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:06:20 INFO  pages.NotesPage - Note found in UI: Test Note 2_43be915b
+2026-05-27 17:06:20 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_43be915b
+2026-05-27 17:06:20 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 17:06:21 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:06:21 INFO  tests.e2e.UiApiValidationTest - API response time: 445 ms
+2026-05-27 17:06:21 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 17:06:22 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 17:06:23 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 17:06:36 ERROR pages.NotesPage - Note not found in UI: Test Note 2_43be915b
+2026-05-27 17:06:36 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:06:46 ERROR pages.NotesPage - Note not found in UI: Test Note 2_43be915b
+2026-05-27 17:06:46 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:06:46 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 17:06:47 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 17:08:52 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 17:09:08 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 17:09:08 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 17:09:08 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 17:09:11 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 17:09:11 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 17:09:32 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:09:33 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 17:09:38 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:09:38 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 17:09:40 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:09:40 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 17:09:40 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:09:40 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 17:09:40 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 17:09:41 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 17:09:44 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:09:44 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 17:09:47 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 17:09:47 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 17:09:47 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 17:09:47 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 17:09:49 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 17:09:52 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:09:53 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:09:53 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:09:54 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:09:55 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:09:55 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:10:12 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 17:10:12 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 17:10:12 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 17:10:12 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 17:10:14 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 17:10:15 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 17:10:24 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:10:24 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:10:24 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 17:10:24 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 17:10:32 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:10:32 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 17:10:35 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:10:35 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 17:10:35 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 17:10:35 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 17:10:36 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 17:10:37 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 17:10:38 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:10:38 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:10:38 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 17:10:41 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:10:41 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 17:10:44 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:10:49 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 17:10:50 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:10:50 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 17:10:50 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 17:10:50 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:10:50 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:10:50 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:10:51 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:10:52 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:10:52 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:10:52 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 17:10:52 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 17:10:52 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:10:53 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:10:56 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 17:10:56 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 17:10:56 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:10:57 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:10:59 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 17:10:59 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 17:10:59 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:11:00 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:11:00 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 17:11:00 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779882014747
+2026-05-27 17:11:00 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 17:11:00 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 17:11:00 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 17:11:00 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:11:01 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:11:01 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:11:01 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 17:11:01 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 17:11:01 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:11:02 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 17:11:02 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:11:02 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 17:11:02 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 17:11:03 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 17:11:13 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 17:11:13 INFO  tests.e2e.UiApiValidationTest - Starting UI ↔ API validation flow
+2026-05-27 17:11:19 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 17:11:19 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 17:11:20 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 17:11:27 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:11:27 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 17:11:27 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:11:40 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 17:11:40 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 17:11:41 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:11:41 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 17:11:47 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:11:47 INFO  pages.NotesPage - Note found in UI: TestNote_da072
+2026-05-27 17:11:47 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 17:11:52 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:11:52 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 17:11:52 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 17:11:54 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:11:55 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:11:56 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:11:56 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:11:57 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:11:57 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:11:57 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:12:00 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:12:02 INFO  pages.NotesPage - Note found in UI: Test Note 1_98be6896
+2026-05-27 17:12:02 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_98be6896
+2026-05-27 17:12:02 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 17:12:02 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:12:04 INFO  tests.e2e.UiApiValidationTest - API response time: 445 ms
+2026-05-27 17:12:04 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 17:12:05 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 17:12:06 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 17:12:19 ERROR pages.NotesPage - Note not found in UI: Test Note 1_98be6896
+2026-05-27 17:12:19 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 17:12:29 ERROR pages.NotesPage - Note not found in UI: Test Note 1_98be6896
+2026-05-27 17:12:29 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 17:12:30 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 17:12:38 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 17:12:38 INFO  tests.e2e.UiApiValidationTest - Starting UI ↔ API validation flow
+2026-05-27 17:12:45 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:12:57 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 17:13:00 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:13:01 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:13:02 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:13:02 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 17:13:03 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:13:03 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:13:03 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:13:06 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:13:06 INFO  pages.NotesPage - Note found in UI: Test Note 2_de4acd14
+2026-05-27 17:13:06 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_de4acd14
+2026-05-27 17:13:06 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 17:13:07 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:13:08 INFO  tests.e2e.UiApiValidationTest - API response time: 489 ms
+2026-05-27 17:13:08 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 17:13:09 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 17:13:09 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 17:13:23 ERROR pages.NotesPage - Note not found in UI: Test Note 2_de4acd14
+2026-05-27 17:13:23 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 17:13:33 ERROR pages.NotesPage - Note not found in UI: Test Note 2_de4acd14
+2026-05-27 17:13:33 INFO  tests.e2e.UiApiValidationTest - UI ↔ API DELETE FLOW SUCCESSFUL
+2026-05-27 17:13:33 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 17:13:34 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 17:24:01 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 17:24:37 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 17:24:37 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 17:24:38 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 17:24:38 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 17:24:38 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 17:24:45 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:24:46 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 17:24:50 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:24:50 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 17:24:58 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:24:58 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 17:25:06 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:25:06 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 17:25:08 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 17:25:08 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 17:25:09 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:25:09 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 17:25:10 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 17:25:10 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 17:25:10 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 17:25:10 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 17:25:11 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 17:25:13 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:25:14 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:25:15 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:25:18 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:25:19 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:25:20 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:25:37 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 17:25:37 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 17:25:37 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 17:25:37 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 17:25:38 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 17:25:40 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 17:25:45 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:25:46 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 17:25:50 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:25:50 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 17:25:53 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:25:53 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:25:53 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 17:25:54 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:25:54 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 17:25:54 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 17:25:54 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 17:25:54 INFO  pages.NotesPage - Note found in UI: TestNote_082ab
+2026-05-27 17:25:54 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 17:25:57 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 17:25:58 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 17:25:59 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:25:59 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:26:03 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:03 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:06 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 17:26:07 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 17:26:07 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 17:26:07 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:26:07 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 17:26:07 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 17:26:07 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:26:07 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:08 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:09 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 17:26:09 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 17:26:09 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:26:09 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 17:26:09 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 17:26:09 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:26:10 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:10 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:10 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 17:26:10 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 17:26:10 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 17:26:11 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:26:11 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 17:26:12 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 17:26:12 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 17:26:12 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:26:12 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 17:26:12 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 17:26:19 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:26:19 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 17:26:21 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 17:26:24 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:26:25 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:26:26 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:26:27 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:26:27 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:26:33 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:26:33 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 17:26:35 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 17:26:35 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 17:26:37 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 17:26:39 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779882939469
+2026-05-27 17:26:39 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 17:26:39 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 17:26:40 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 17:26:40 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 17:26:47 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:26:48 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:26:48 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 17:27:00 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 17:27:00 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 17:27:06 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:27:14 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:27:15 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:27:15 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 17:27:16 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:27:17 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:27:17 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:27:17 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 17:27:18 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:27:19 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:27:19 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 17:27:19 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 17:27:26 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:27:26 INFO  pages.NotesPage - Note found in UI: Test Note 1_751465d3
+2026-05-27 17:27:26 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_751465d3
+2026-05-27 17:27:26 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 17:27:27 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:27:29 INFO  tests.e2e.UiApiValidationTest - API response time: 449 ms
+2026-05-27 17:27:30 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 17:27:31 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 17:27:31 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 17:27:45 ERROR pages.NotesPage - Note not found in UI: Test Note 1_751465d3
+2026-05-27 17:27:45 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:27:55 ERROR pages.NotesPage - Note not found in UI: Test Note 1_751465d3
+2026-05-27 17:27:55 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:27:55 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 17:28:05 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 17:28:05 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 17:28:11 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 17:28:22 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 17:28:26 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 17:28:28 INFO  pages.LoginPage - Login Successful
+2026-05-27 17:28:29 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 17:28:29 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 17:28:30 INFO  pages.NotesPage - Entered note title
+2026-05-27 17:28:30 INFO  pages.NotesPage - Entered note description
+2026-05-27 17:28:30 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 17:28:35 INFO  pages.NotesPage - Note created successfully
+2026-05-27 17:28:35 INFO  pages.NotesPage - Note found in UI: Test Note 2_e4db2a8b
+2026-05-27 17:28:35 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_e4db2a8b
+2026-05-27 17:28:35 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 17:28:36 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 17:28:36 INFO  tests.e2e.UiApiValidationTest - API response time: 441 ms
+2026-05-27 17:28:37 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 17:28:37 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 17:28:38 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 17:29:33 ERROR pages.NotesPage - Note not found in UI: Test Note 2_e4db2a8b
+2026-05-27 17:29:33 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:29:43 ERROR pages.NotesPage - Note not found in UI: Test Note 2_e4db2a8b
+2026-05-27 17:29:43 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 17:29:44 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 17:29:45 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 18:27:59 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 18:28:17 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 18:28:17 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 18:28:20 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 18:28:37 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 18:28:41 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:28:41 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 18:28:41 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 18:28:43 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:28:43 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:28:44 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:28:46 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:28:47 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 18:28:48 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:28:48 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:28:56 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:28:56 INFO  pages.NotesPage - Note found in UI: TestNote_43bf0
+2026-05-27 18:28:56 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 18:29:01 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:29:01 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 18:29:02 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:29:02 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 18:29:09 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:29:09 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 18:29:09 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 18:29:09 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 18:29:12 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:29:12 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 18:29:12 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 18:29:12 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 18:29:13 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 18:29:13 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 18:29:25 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 18:29:28 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:30 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:29:30 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:29:30 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 18:29:30 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 18:29:31 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 18:29:32 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 18:29:36 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:43 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 18:29:43 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 18:29:43 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:44 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:45 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:29:45 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 18:29:46 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 18:29:46 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 18:29:46 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:47 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:49 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:29:49 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 18:29:49 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 18:29:49 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:49 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:29:50 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:51 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 18:29:51 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 18:29:51 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:52 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:29:52 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:29:52 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:52 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 18:29:52 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 18:29:52 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:53 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:54 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 18:29:54 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 18:29:55 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 18:29:55 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 18:29:55 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:29:55 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:29:56 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 18:29:59 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 18:30:18 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 18:30:19 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:30:19 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:30:38 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:30:58 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:30:58 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 18:31:03 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 18:31:36 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:31:37 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 18:31:43 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:31:43 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:31:46 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 18:31:52 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:31:53 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:32:00 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:32:00 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:32:05 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 18:32:05 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 18:32:07 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:32:07 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:32:07 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 18:32:09 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 18:32:26 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:32:30 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:32:30 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 18:32:39 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 18:32:43 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 18:32:49 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:32:51 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:32:51 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 18:32:53 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:32:54 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:32:54 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 18:32:55 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:32:56 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:32:57 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:32:57 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 18:32:57 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:32:57 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:32:57 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:32:58 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:32:58 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:32:59 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:32:59 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:33:07 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 18:33:09 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:33:09 INFO  pages.NotesPage - Note found in UI: Test Note 1_8f09e043
+2026-05-27 18:33:09 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_8f09e043
+2026-05-27 18:33:09 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 18:33:09 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:33:09 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 18:33:09 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779886928267
+2026-05-27 18:33:09 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 18:33:09 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 18:33:10 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:33:16 INFO  tests.e2e.UiApiValidationTest - API response time: 828 ms
+2026-05-27 18:33:17 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 18:33:18 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 18:33:19 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 18:33:25 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:33:25 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:33:25 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 18:33:25 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 18:33:26 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 18:33:37 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:33:37 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:33:39 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:33:39 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 18:33:51 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:33:51 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:33:52 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:33:52 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 18:33:52 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 18:33:52 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 18:33:55 ERROR pages.NotesPage - Note not found in UI: Test Note 1_8f09e043
+2026-05-27 18:33:55 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 18:34:06 ERROR pages.NotesPage - Note not found in UI: Test Note 1_8f09e043
+2026-05-27 18:34:06 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 18:34:06 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 18:34:50 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:34:50 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:35:53 WARN  listeners.TestListener - TEST SKIPPED: registerAndLoginTest
+2026-05-27 18:47:40 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 18:47:55 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 18:47:55 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 18:47:55 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 18:47:56 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 18:47:56 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 18:47:57 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:47:57 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:47:58 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 18:48:09 WARN  listeners.TestListener - TEST SKIPPED: emptyLoginValidationTest
+2026-05-27 18:48:09 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 18:48:13 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 18:48:13 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 18:48:13 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 18:48:13 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 18:48:14 WARN  listeners.TestListener - TEST SKIPPED: verifyCreateNote
+2026-05-27 18:48:17 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 18:48:24 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 18:48:25 WARN  listeners.TestListener - TEST SKIPPED: emptyLoginValidationTest
+2026-05-27 18:48:27 WARN  listeners.TestListener - TEST SKIPPED: verifyCreateNote
+2026-05-27 18:48:39 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 18:48:39 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 18:48:39 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 18:48:40 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 18:48:40 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 18:49:01 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:49:01 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 18:49:04 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:49:04 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 18:49:07 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:49:15 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 18:49:15 ERROR listeners.TestListener - TEST FAILED: invalidLoginTest
+2026-05-27 18:49:21 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:49:21 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 18:49:24 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 18:49:24 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 18:49:24 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 18:49:24 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 18:49:24 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 18:49:27 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:49:28 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:49:28 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:49:29 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:49:29 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:49:29 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:49:51 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:49:51 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:49:52 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 18:49:52 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 18:49:53 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 18:49:53 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 18:50:08 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:50:08 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:50:09 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:50:09 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 18:50:10 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:50:11 INFO  pages.NotesPage - Note found in UI: TestNote_18e5a
+2026-05-27 18:50:11 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 18:50:13 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:50:13 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:50:16 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:50:16 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 18:50:16 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 18:50:16 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 18:50:17 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 18:50:17 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 18:50:18 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:18 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:21 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 18:50:22 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:22 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:26 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 18:50:26 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 18:50:26 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:27 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:27 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 18:50:27 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 18:50:27 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:28 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:50:28 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 18:50:28 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:29 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 18:50:29 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 18:50:29 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:29 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 18:50:29 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 18:50:29 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:29 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:30 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:50:30 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 18:50:30 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:30 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 18:50:30 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 18:50:30 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:50:30 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 18:50:31 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:50:31 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 18:50:31 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 18:50:32 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 18:50:38 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 18:50:39 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:50:40 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:50:41 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:50:46 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:50:46 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:50:47 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 18:50:47 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 18:50:49 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 18:50:49 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:50:49 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:50:53 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:51:03 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:51:03 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 18:51:10 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 18:51:16 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 18:51:17 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:51:20 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:51:24 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:51:26 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:51:28 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:51:29 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:51:29 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:51:36 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:51:36 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 18:51:36 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779887993825
+2026-05-27 18:51:36 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 18:51:36 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 18:51:40 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:51:40 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 18:51:42 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:51:42 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 18:51:42 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 18:51:43 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:51:43 INFO  pages.NotesPage - Note found in UI: Test Note 1_0bd5a226
+2026-05-27 18:51:43 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_0bd5a226
+2026-05-27 18:51:43 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 18:51:43 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:51:46 INFO  tests.e2e.UiApiValidationTest - API response time: 723 ms
+2026-05-27 18:51:46 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 18:51:47 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 18:51:48 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 18:52:00 ERROR pages.NotesPage - Note not found in UI: Test Note 1_0bd5a226
+2026-05-27 18:52:00 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 18:52:10 ERROR pages.NotesPage - Note not found in UI: Test Note 1_0bd5a226
+2026-05-27 18:52:10 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 18:52:11 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 18:52:18 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:52:18 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:52:22 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:52:34 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 18:52:41 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:52:42 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:52:44 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:52:44 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 18:52:44 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:52:44 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:52:45 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:52:48 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:52:49 INFO  pages.NotesPage - Note found in UI: Test Note 2_3a172448
+2026-05-27 18:52:49 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_3a172448
+2026-05-27 18:52:49 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 18:52:51 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:52:57 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 18:53:04 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:53:04 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:53:10 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:53:22 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 18:53:22 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:53:29 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:53:30 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:53:30 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 18:53:30 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:53:31 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:53:31 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:53:36 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:53:36 INFO  pages.NotesPage - Note found in UI: Test Note 2_638d02a4
+2026-05-27 18:53:36 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_638d02a4
+2026-05-27 18:53:36 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 18:53:37 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:53:38 INFO  tests.e2e.UiApiValidationTest - API response time: 452 ms
+2026-05-27 18:53:38 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 18:53:38 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 18:53:39 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 18:53:51 ERROR pages.NotesPage - Note not found in UI: Test Note 2_638d02a4
+2026-05-27 18:53:51 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 18:54:02 ERROR pages.NotesPage - Note not found in UI: Test Note 2_638d02a4
+2026-05-27 18:54:02 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 18:54:02 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 18:54:03 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 18:54:39 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 18:55:11 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 18:55:11 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 18:55:11 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 18:55:12 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 18:55:12 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 18:55:16 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:55:19 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 18:55:23 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:55:24 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:55:24 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 18:55:28 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 18:55:32 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:55:32 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 18:55:32 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 18:55:32 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 18:55:48 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:55:48 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 18:55:50 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 18:55:50 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 18:55:50 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 18:55:50 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 18:55:51 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 18:55:54 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:55:56 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:55:57 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:55:57 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:55:58 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:55:58 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:56:08 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:56:08 INFO  pages.NotesPage - Note found in UI: TestNote_0b17d
+2026-05-27 18:56:08 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 18:56:12 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:56:12 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:56:19 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 18:56:19 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 18:56:20 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 18:56:21 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:56:21 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 18:56:21 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:56:23 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 18:56:26 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:56:27 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:30 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 18:56:34 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:36 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:56:36 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:56:38 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 18:56:39 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 18:56:39 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:39 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:41 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 18:56:41 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 18:56:41 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:42 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:43 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 18:56:44 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 18:56:45 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 18:56:45 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:45 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:48 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 18:56:48 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 18:56:48 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:49 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:50 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 18:56:50 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 18:56:50 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:50 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:51 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 18:56:51 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 18:56:52 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 18:56:52 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 18:56:52 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 18:56:53 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 18:56:53 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 18:56:56 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 18:56:57 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:56:57 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 18:57:02 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:57:02 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 18:57:04 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 18:57:04 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 18:57:04 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 18:57:05 INFO  pages.NotesPage - Entered note title
+2026-05-27 18:57:05 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:57:05 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:57:07 INFO  pages.NotesPage - Entered note description
+2026-05-27 18:57:08 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 18:57:15 INFO  pages.NotesPage - Note created successfully
+2026-05-27 18:57:15 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 18:57:15 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779888380864
+2026-05-27 18:57:15 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 18:57:15 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 18:57:16 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:57:28 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 18:57:31 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:57:31 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:57:33 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:57:41 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:57:43 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:58:02 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:58:02 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:58:03 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 18:58:03 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 18:58:04 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 18:58:16 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 18:58:20 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:58:20 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 18:58:28 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 18:58:29 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 18:58:29 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 18:58:32 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 18:58:40 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:58:40 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 18:58:41 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:58:41 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 18:58:49 WARN  listeners.TestListener - TEST SKIPPED: registerAndLoginTest
+2026-05-27 18:58:55 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:58:55 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 18:58:58 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:58:58 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 18:59:00 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 18:59:00 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 18:59:07 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 18:59:07 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 18:59:07 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 18:59:13 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:59:13 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:59:13 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:59:13 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 18:59:20 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:59:26 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 18:59:28 WARN  listeners.TestListener - TEST SKIPPED: validateUiWithApi
+2026-05-27 18:59:28 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 18:59:28 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 18:59:34 INFO  pages.LoginPage - Login Successful
+2026-05-27 18:59:34 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 18:59:34 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 18:59:41 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 18:59:41 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 18:59:45 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 18:59:57 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 19:00:00 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:00:02 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:00:03 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:00:04 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:00:04 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:00:04 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:00:05 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:00:10 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:00:10 INFO  pages.NotesPage - Note found in UI: Test Note 1_e7adf7f4
+2026-05-27 19:00:10 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_e7adf7f4
+2026-05-27 19:00:10 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 19:00:11 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:00:13 INFO  tests.e2e.UiApiValidationTest - API response time: 965 ms
+2026-05-27 19:00:14 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 19:00:14 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 19:00:15 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 19:00:30 ERROR pages.NotesPage - Note not found in UI: Test Note 1_e7adf7f4
+2026-05-27 19:00:30 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:00:40 ERROR pages.NotesPage - Note not found in UI: Test Note 1_e7adf7f4
+2026-05-27 19:00:40 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:00:40 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 19:00:47 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 19:00:47 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 19:00:52 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:01:03 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 19:01:04 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:01:09 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:01:10 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:01:10 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 19:01:10 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:01:11 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:01:11 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:01:15 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:01:15 INFO  pages.NotesPage - Note found in UI: Test Note 2_f408f3df
+2026-05-27 19:01:15 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_f408f3df
+2026-05-27 19:01:15 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 19:01:15 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:01:16 INFO  tests.e2e.UiApiValidationTest - API response time: 591 ms
+2026-05-27 19:01:16 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 19:01:17 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 19:01:18 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 19:01:33 ERROR pages.NotesPage - Note not found in UI: Test Note 2_f408f3df
+2026-05-27 19:01:33 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:01:43 ERROR pages.NotesPage - Note not found in UI: Test Note 2_f408f3df
+2026-05-27 19:01:43 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:01:43 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 19:01:44 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 19:19:40 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 19:20:16 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 19:20:16 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 19:20:16 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 19:20:18 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 19:20:18 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 19:20:28 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:20:35 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 19:20:35 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 19:20:38 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:20:38 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:20:38 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 19:20:40 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:20:41 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:20:42 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:20:43 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:20:43 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:20:46 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:20:46 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 19:20:47 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 19:20:47 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 19:20:53 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:20:54 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 19:21:03 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:21:03 INFO  pages.NotesPage - Note found in UI: TestNote_1b956
+2026-05-27 19:21:03 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 19:21:08 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:21:08 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 19:21:13 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 19:21:13 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 19:21:14 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 19:21:14 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 19:21:18 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 19:21:24 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:32 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 19:21:32 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 19:21:33 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:34 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 19:21:35 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 19:21:42 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 19:21:42 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 19:21:42 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:42 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:44 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 19:21:44 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 19:21:44 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:44 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:21:44 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:45 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 19:21:47 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 19:21:47 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 19:21:47 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:48 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:48 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 19:21:48 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 19:21:48 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:49 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:49 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 19:21:49 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 19:21:49 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 19:21:49 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 19:21:49 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:50 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:51 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 19:21:51 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 19:21:51 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 19:21:51 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 19:21:51 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:21:52 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:21:52 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 19:21:59 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 19:22:08 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 19:22:08 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 19:22:17 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:22:18 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 19:22:31 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:22:34 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:22:34 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 19:22:45 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 19:22:50 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 19:22:54 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:22:54 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 19:23:15 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 19:23:16 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:23:17 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:23:18 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:23:20 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:23:31 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:23:36 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:23:36 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:23:42 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 19:23:42 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 19:23:43 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 19:23:43 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 19:23:44 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 19:23:45 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 19:23:52 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:23:53 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 19:23:58 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:23:58 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 19:24:02 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:24:03 INFO  pages.NotesPage - Note found in UI: Test Note 1_a2bc81f1
+2026-05-27 19:24:03 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_a2bc81f1
+2026-05-27 19:24:03 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 19:24:03 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:24:03 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 19:24:03 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 19:24:03 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 19:24:04 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:24:06 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:24:06 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 19:24:08 INFO  tests.e2e.UiApiValidationTest - API response time: 578 ms
+2026-05-27 19:24:08 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 19:24:09 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 19:24:09 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 19:24:19 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 19:24:29 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 19:24:29 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 19:24:30 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 19:24:47 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:24:47 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 19:24:49 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:24:49 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 19:24:59 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 19:25:01 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 19:25:06 ERROR pages.NotesPage - Note not found in UI: Test Note 1_a2bc81f1
+2026-05-27 19:25:06 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:25:16 ERROR pages.NotesPage - Note not found in UI: Test Note 1_a2bc81f1
+2026-05-27 19:25:16 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:25:17 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 19:25:18 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:25:18 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 19:25:19 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 19:25:19 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 19:25:20 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 19:25:20 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 19:25:22 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:25:22 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 19:25:22 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 19:25:25 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:25:25 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 19:25:36 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 19:25:36 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 19:25:42 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:25:42 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 19:25:50 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:25:50 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 19:25:53 ERROR listeners.TestListener - TEST FAILED: fullUserFlow
+2026-05-27 19:25:55 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 19:26:06 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:26:08 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:26:09 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:26:09 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 19:26:10 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:26:10 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:26:10 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:26:14 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:26:14 INFO  pages.NotesPage - Note found in UI: Test Note 2_1b1e85a5
+2026-05-27 19:26:14 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_1b1e85a5
+2026-05-27 19:26:14 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 19:26:15 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:26:15 INFO  tests.e2e.UiApiValidationTest - API response time: 413 ms
+2026-05-27 19:26:16 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 19:26:16 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 19:26:17 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 19:26:33 ERROR pages.NotesPage - Note not found in UI: Test Note 2_1b1e85a5
+2026-05-27 19:26:33 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:26:43 ERROR pages.NotesPage - Note not found in UI: Test Note 2_1b1e85a5
+2026-05-27 19:26:43 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:26:43 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 19:26:45 INFO  listeners.TestListener - Execution Finished: All Test Execution
+2026-05-27 19:33:11 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 19:33:33 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 19:33:38 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 19:33:48 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 19:33:48 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 19:33:48 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 19:33:56 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:33:57 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 19:34:08 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:34:09 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 19:34:09 WARN  listeners.TestListener - TEST SKIPPED: verifyCreateNote
+2026-05-27 19:34:11 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 19:34:12 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:34:12 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 19:34:14 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:34:14 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 19:34:19 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 19:34:19 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 19:34:22 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 19:34:22 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 19:34:25 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 19:34:43 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 19:34:43 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 19:34:46 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 19:34:46 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 19:34:46 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 19:34:54 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:34:57 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 19:35:01 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 19:35:03 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:35:04 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 19:35:13 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:35:13 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 19:35:30 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:35:30 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 19:35:48 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:35:48 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 19:35:50 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:35:51 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:35:51 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:35:52 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:35:52 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:35:53 WARN  listeners.TestListener - TEST SKIPPED: invalidEmailFormatValidationTest
+2026-05-27 19:36:00 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:36:06 INFO  pages.NotesPage - Note found in UI: TestNote_153b9
+2026-05-27 19:36:06 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 19:36:44 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 19:36:44 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 19:36:45 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 19:36:45 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 19:36:45 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 19:36:45 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 19:36:45 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 19:36:46 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 19:36:56 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:36:57 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 19:36:58 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:36:59 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 19:37:02 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:37:02 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 19:38:03 INFO  listeners.TestListener - Execution Started: All Test Execution
+2026-05-27 19:38:37 INFO  listeners.TestListener - Starting Test: verifyCreateNote
+2026-05-27 19:38:37 INFO  listeners.TestListener - Starting Test: emptyLoginValidationTest
+2026-05-27 19:38:37 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 19:38:38 INFO  tests.ui.EmptyLoginTest - Opening Signup Page
+2026-05-27 19:38:38 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 19:38:45 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:38:45 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 19:38:59 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:39:00 INFO  tests.ui.EmptyLoginTest - Navigating to Login Page
+2026-05-27 19:39:15 INFO  pages.LoginPage - Clicked Login Here button
+2026-05-27 19:39:19 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:39:20 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:39:20 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 19:39:25 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:39:30 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:39:37 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:39:37 INFO  tests.ui.EmptyLoginTest - Clicking Login button without entering credentials
+2026-05-27 19:39:40 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:39:42 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:39:42 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:39:43 INFO  pages.LoginPage - Clicked Login button
+2026-05-27 19:39:43 INFO  tests.ui.EmptyLoginTest - Verifying validation message
+2026-05-27 19:39:44 INFO  tests.ui.EmptyLoginTest - Empty Login Validation Successful
+2026-05-27 19:39:44 INFO  listeners.TestListener - TEST PASSED: emptyLoginValidationTest
+2026-05-27 19:39:54 WARN  listeners.TestListener - TEST SKIPPED: invalidLoginTest
+2026-05-27 19:39:54 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:39:56 INFO  pages.NotesPage - Note found in UI: TestNote_4bfc3
+2026-05-27 19:39:56 INFO  listeners.TestListener - TEST PASSED: verifyCreateNote
+2026-05-27 19:40:14 INFO  listeners.TestListener - Starting Test: invalidLoginTest
+2026-05-27 19:40:14 INFO  tests.ui.LoginNegativeTest - Opening Signup Page
+2026-05-27 19:40:20 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 19:40:20 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 19:40:20 INFO  listeners.TestListener - Starting Test: invalidEmailFormatValidationTest
+2026-05-27 19:40:20 INFO  tests.ui.InvalidEmailFormatTest - Opening Signup Page
+2026-05-27 19:40:21 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 19:40:22 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 19:40:24 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:40:30 INFO  tests.ui.InvalidEmailFormatTest - Navigating to Login Page
+2026-05-27 19:40:38 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:40:38 INFO  tests.ui.LoginNegativeTest - Navigating to Login Page
+2026-05-27 19:40:40 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:40:40 INFO  tests.ui.InvalidEmailFormatTest - Entering Invalid Email Format
+2026-05-27 19:40:43 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:40:43 INFO  tests.ui.LoginNegativeTest - Performing Invalid Login
+2026-05-27 19:40:46 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:40:46 INFO  tests.ui.InvalidEmailFormatTest - Verifying Invalid Email Validation Message
+2026-05-27 19:40:46 INFO  tests.ui.InvalidEmailFormatTest - Invalid Email Format Validation Successful
+2026-05-27 19:40:46 INFO  listeners.TestListener - TEST PASSED: invalidEmailFormatValidationTest
+2026-05-27 19:40:47 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:40:47 INFO  tests.ui.LoginNegativeTest - Verifying Login Error Message
+2026-05-27 19:40:48 INFO  tests.ui.LoginNegativeTest - Invalid Login Validation Successful
+2026-05-27 19:40:48 INFO  listeners.TestListener - TEST PASSED: invalidLoginTest
+2026-05-27 19:40:49 INFO  listeners.TestListener - Starting Test: validateGetNotes
+2026-05-27 19:40:49 INFO  listeners.TestListener - Starting Test: updateNote
+2026-05-27 19:40:51 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:40:51 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:40:54 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:40:54 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:40:58 INFO  listeners.TestListener - TEST PASSED: validateGetNotes
+2026-05-27 19:40:58 INFO  listeners.TestListener - Starting Test: deleteNote
+2026-05-27 19:40:58 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:40:59 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:40:59 INFO  listeners.TestListener - TEST PASSED: updateNote
+2026-05-27 19:40:59 INFO  listeners.TestListener - Starting Test: createNoteTest
+2026-05-27 19:40:59 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:41:00 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:41:02 INFO  listeners.TestListener - TEST PASSED: createNoteTest
+2026-05-27 19:41:02 INFO  listeners.TestListener - TEST PASSED: deleteNote
+2026-05-27 19:41:02 INFO  listeners.TestListener - Starting Test: createNoteWithoutTitle
+2026-05-27 19:41:02 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:41:02 INFO  listeners.TestListener - Starting Test: verifyGetNotesResponseTime
+2026-05-27 19:41:02 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:41:03 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:41:03 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:41:03 INFO  listeners.TestListener - TEST PASSED: createNoteWithoutTitle
+2026-05-27 19:41:03 INFO  listeners.TestListener - Starting Test: deleteInvalidNoteId
+2026-05-27 19:41:03 INFO  tests.api.AuthManager - Generating authentication token for user: suhani417@gmail.com
+2026-05-27 19:41:03 INFO  listeners.TestListener - TEST PASSED: verifyGetNotesResponseTime
+2026-05-27 19:41:04 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:41:04 INFO  listeners.TestListener - TEST PASSED: deleteInvalidNoteId
+2026-05-27 19:41:04 INFO  listeners.TestListener - Starting Test: getNotesWithInvalidToken
+2026-05-27 19:41:05 INFO  listeners.TestListener - TEST PASSED: getNotesWithInvalidToken
+2026-05-27 19:41:13 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 19:41:13 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 19:41:13 INFO  listeners.TestListener - Starting Test: registerAndLoginTest
+2026-05-27 19:41:13 INFO  tests.ui.RegisterLoginTest - Reading Register Test Data
+2026-05-27 19:41:15 INFO  tests.ui.RegisterLoginTest - Opening Signup Page
+2026-05-27 19:41:40 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:41:43 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:41:43 INFO  tests.ui.RegisterLoginTest - Registering User
+2026-05-27 19:41:53 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 19:41:56 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:41:57 INFO  tests.ui.RegisterLoginTest - New User Registered Successfully
+2026-05-27 19:42:00 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:42:02 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:42:04 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:42:05 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:42:05 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:42:06 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:42:09 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:42:09 INFO  tests.ui.RegisterLoginTest - Logging in Newly Registered User
+2026-05-27 19:42:13 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:42:13 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:42:13 INFO  tests.ui.RegisterLoginTest - Register and Login Flow Completed Successfully
+2026-05-27 19:42:13 INFO  listeners.TestListener - TEST PASSED: registerAndLoginTest
+2026-05-27 19:42:15 INFO  pages.NotesPage - Note found in UI: Test Note 1_d0cadb09
+2026-05-27 19:42:15 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 1_d0cadb09
+2026-05-27 19:42:15 INFO  tests.api.AuthManager - Generating authentication token for user: suhani4188@gmail.com
+2026-05-27 19:42:17 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:42:20 INFO  tests.e2e.UiApiValidationTest - API response time: 691 ms
+2026-05-27 19:42:20 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 19:42:21 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 19:42:22 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 19:43:17 ERROR pages.NotesPage - Note not found in UI: Test Note 1_d0cadb09
+2026-05-27 19:43:17 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:43:28 ERROR pages.NotesPage - Note not found in UI: Test Note 1_d0cadb09
+2026-05-27 19:43:28 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:43:29 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 19:43:37 INFO  listeners.TestListener - Starting Test: validateUiWithApi
+2026-05-27 19:43:37 INFO  tests.e2e.UiApiValidationTest - Starting UI ? API validation flow
+2026-05-27 19:43:39 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:43:51 INFO  tests.e2e.UiApiValidationTest - New user registered
+2026-05-27 19:43:54 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:43:57 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:43:58 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:43:59 INFO  pages.NotesPage - Selected category: Work
+2026-05-27 19:43:59 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:44:00 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:44:00 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:44:04 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:44:04 INFO  pages.NotesPage - Note found in UI: Test Note 2_71d5f00b
+2026-05-27 19:44:04 INFO  tests.e2e.UiApiValidationTest - Note created successfully: Test Note 2_71d5f00b
+2026-05-27 19:44:04 INFO  tests.api.AuthManager - Generating authentication token for user: riya345@gmail.com
+2026-05-27 19:44:05 INFO  tests.api.AuthManager - TOKEN GENERATED SUCCESSFULLY
+2026-05-27 19:44:06 INFO  tests.e2e.UiApiValidationTest - API response time: 421 ms
+2026-05-27 19:44:06 INFO  tests.e2e.UiApiValidationTest - API validation successful
+2026-05-27 19:44:06 INFO  tests.e2e.UiApiValidationTest - Note deleted successfully via API
+2026-05-27 19:44:07 INFO  tests.e2e.UiApiValidationTest - Verified note deletion from API
+2026-05-27 19:44:20 ERROR pages.NotesPage - Note not found in UI: Test Note 2_71d5f00b
+2026-05-27 19:44:20 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:44:31 ERROR pages.NotesPage - Note not found in UI: Test Note 2_71d5f00b
+2026-05-27 19:44:31 INFO  tests.e2e.UiApiValidationTest - UI ? API DELETE FLOW SUCCESSFUL
+2026-05-27 19:44:31 INFO  listeners.TestListener - TEST PASSED: validateUiWithApi
+2026-05-27 19:46:23 WARN  listeners.TestListener - TEST SKIPPED: fullUserFlow
+2026-05-27 19:47:16 INFO  listeners.TestListener - Starting Test: fullUserFlow
+2026-05-27 19:47:16 INFO  tests.ui.EndToEndUserJourneyTest - Reading Register Test Data
+2026-05-27 19:47:16 INFO  tests.ui.EndToEndUserJourneyTest - Reading Notes Test Data
+2026-05-27 19:47:17 INFO  tests.ui.EndToEndUserJourneyTest - Opening Signup Page
+2026-05-27 19:47:22 INFO  pages.RegisterPage - Clicked Create Account button
+2026-05-27 19:47:23 INFO  tests.ui.EndToEndUserJourneyTest - Registering User
+2026-05-27 19:47:35 INFO  tests.ui.EndToEndUserJourneyTest - New User Registered
+2026-05-27 19:47:38 INFO  pages.RegisterPage - Clicked Login Here button
+2026-05-27 19:47:38 INFO  tests.ui.EndToEndUserJourneyTest - Logging in newly registered user
+2026-05-27 19:47:40 INFO  pages.LoginPage - Login Successful
+2026-05-27 19:47:40 INFO  tests.ui.EndToEndUserJourneyTest - Waiting for Dashboard
+2026-05-27 19:47:41 INFO  tests.ui.EndToEndUserJourneyTest - Creating Note
+2026-05-27 19:47:41 INFO  pages.NotesPage - Clicked Add Note button
+2026-05-27 19:47:41 INFO  pages.NotesPage - Selected category: Home
+2026-05-27 19:47:42 INFO  pages.NotesPage - Entered note title
+2026-05-27 19:47:42 INFO  pages.NotesPage - Entered note description
+2026-05-27 19:47:42 INFO  pages.NotesPage - Clicked Create button
+2026-05-27 19:47:45 INFO  pages.NotesPage - Note created successfully
+2026-05-27 19:47:45 INFO  tests.ui.EndToEndUserJourneyTest - Validating Created Note
+2026-05-27 19:47:45 INFO  pages.NotesPage - Note found in UI: Test Note 1_1779891437061
+2026-05-27 19:47:45 INFO  tests.ui.EndToEndUserJourneyTest - FULL UI USER FLOW COMPLETED SUCCESSFULLY
+2026-05-27 19:47:45 INFO  listeners.TestListener - TEST PASSED: fullUserFlow
+2026-05-27 19:47:47 INFO  listeners.TestListener - Execution Finished: All Test Execution

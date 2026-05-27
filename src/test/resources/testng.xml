@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Capstone Suite" parallel="classes" thread-count="3">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+
+    <test name="All Test Execution">
+
+        <classes>
+
+            <class name="tests.ui.RegisterLoginTest"/>
+            <class name="tests.ui.LoginNegativeTest"/>
+            <class name="tests.ui.CreateNoteTest"/>
+            <class name="tests.ui.EmptyLoginTest"/>
+            <class name="tests.ui.InvalidEmailFormatTest"/>
+            <class name="tests.ui.EndToEndUserJourneyTest"/>
+
+            <class name="tests.api.GetNotesTest"/>
+            <class name="tests.api.UpdateNoteTest"/>
+            <class name="tests.api.DeleteNoteTest"/>
+            <class name="tests.api.CreateNoteTest"/>
+            <class name="tests.api.NegativeApiTest"/>
+            <class name="tests.api.ApiResponseTimeTest"/>
+
+            <class name="tests.e2e.UiApiValidationTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
