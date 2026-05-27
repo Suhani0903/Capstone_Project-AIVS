@@ -3,11 +3,6 @@ pipeline {
 
     tools {
         jdk 'JDK17'
-        maven 'Maven3'
-    }
-
-    environment {
-        ALLURE_RESULTS = 'allure-results'
     }
 
     stages {
@@ -19,28 +14,32 @@ pipeline {
             }
         }
 
-        stage('Clean Build') {
+        stage('Clean Build & Run TestNG Tests') {
             steps {
-                sh 'mvn clean'
+                bat 'mvn clean test'
             }
         }
 
-        stage('Run Tests') {
+        stage('Run JMeter Performance Tests') {
             steps {
-                sh 'mvn test -DsuiteXmlFile=testng.xml'
+                bat '''
+                if exist report rmdir /s /q report
+                if exist results.jtl del results.jtl
+
+                jmeter -n ^
+                -t src\\test\\resources\\jmeter\\test-plans\\notes_load_test.jmx ^
+                -l results.jtl ^
+                -e -o report
+                '''
             }
         }
 
-        stage('Generate Allure Report') {
+        stage('Allure Report Generation Check') {
             steps {
-                script {
-                   
-                    if (fileExists("${ALLURE_RESULTS}")) {
-                        echo "Allure results found"
-                    } else {
-                        echo "No Allure results folder found"
-                    }
-                }
+                bat '''
+                echo Checking Allure Results Folder
+                dir target\\allure-results
+                '''
             }
         }
     }
@@ -48,18 +47,24 @@ pipeline {
     post {
 
         always {
-      
+
             junit '**/target/surefire-reports/*.xml'
 
-            archiveArtifacts artifacts: '**/target/**, **/test-output/**, **/allure-report/**', fingerprint: true
+            archiveArtifacts artifacts: '''
+                target/**,
+                test-output/**,
+                report/**,
+                results.jtl,
+                screenshots/**
+            ''', fingerprint: true
         }
 
         success {
-            echo 'BUILD SUCCESS '
+            echo 'BUILD SUCCESS  All tests passed'
         }
 
         failure {
-            echo 'BUILD FAILED '
+            echo 'BUILD FAILED  Check logs'
         }
     }
 }
