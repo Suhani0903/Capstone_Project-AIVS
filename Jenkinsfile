@@ -27,8 +27,8 @@ pipeline {
                 if exist jmeter\\results rmdir /s /q jmeter\\results
                 if exist jmeter\\jmeter.log del /f /q jmeter\\jmeter.log
 
-                mkdir jmeter\\results
-                mkdir jmeter\\html-report
+                if not exist jmeter\\results mkdir jmeter\\results
+                if not exist jmeter\\html-report mkdir jmeter\\html-report
                 '''
             }
         }
