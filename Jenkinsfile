@@ -21,11 +21,11 @@ pipeline {
 
                 if exist target\\allure-results rmdir /s /q target\\allure-results
                 if exist target\\surefire-reports rmdir /s /q target\\surefire-reports
+                if exist test-output rmdir /s /q test-output
 
                 if exist jmeter\\html-report rmdir /s /q jmeter\\html-report
                 if exist jmeter\\results rmdir /s /q jmeter\\results
-
-                if exist test-output rmdir /s /q test-output
+                if exist jmeter\\jmeter.log del /f /q jmeter\\jmeter.log
 
                 mkdir jmeter\\results
                 mkdir jmeter\\html-report
@@ -47,12 +47,14 @@ pipeline {
                 jmeter -n ^
                 -t "%WORKSPACE%\\jmeter\\test-plans\\notes_load_test.jmx" ^
                 -l "%WORKSPACE%\\jmeter\\results\\result_01.jtl" ^
-                -e -o "%WORKSPACE%\\jmeter\\html-report"
+                -e ^
+                -o "%WORKSPACE%\\jmeter\\html-report" ^
+                -j "%WORKSPACE%\\jmeter\\jmeter.log"
                 '''
             }
         }
 
-        stage('Allure Report Check') {
+        stage('Allure Results Check') {
             steps {
                 bat '''
                 echo Checking Allure Results Folder
@@ -65,15 +67,21 @@ pipeline {
     post {
 
         always {
+
             junit '**/target/surefire-reports/*.xml'
 
             archiveArtifacts artifacts: '''
                 target/**,
                 test-output/**,
-                jmeter/html-report/**,
-                jmeter/results/**,
+                jmeter/**,
                 screenshots/**
             ''', fingerprint: true
+
+            allure([
+                includeProperties: false,
+                jdk: '',
+                results: [[path: 'target/allure-results']]
+            ])
         }
 
         success {
