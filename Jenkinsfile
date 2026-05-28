@@ -14,6 +14,25 @@ pipeline {
             }
         }
 
+        stage('Clean Workspace Artifacts') {
+            steps {
+                bat '''
+                echo Cleaning old reports and artifacts...
+
+                if exist target\\allure-results rmdir /s /q target\\allure-results
+                if exist target\\surefire-reports rmdir /s /q target\\surefire-reports
+
+                if exist jmeter\\html-report rmdir /s /q jmeter\\html-report
+                if exist jmeter\\results rmdir /s /q jmeter\\results
+
+                if exist test-output rmdir /s /q test-output
+
+                mkdir jmeter\\results
+                mkdir jmeter\\html-report
+                '''
+            }
+        }
+
         stage('Clean Build & Run TestNG Tests') {
             steps {
                 bat 'mvn clean test'
@@ -23,20 +42,17 @@ pipeline {
         stage('Run JMeter Performance Tests') {
             steps {
                 bat '''
-                set JMETER_HOME=%JMETER_HOME%
-
-                if exist jmeter\\html-report rmdir /s /q jmeter\\html-report
-                if exist jmeter\\results\\result_01.jtl del jmeter\\results\\result_01.jtl
+                echo Running JMeter Tests...
 
                 jmeter -n ^
                 -t "%WORKSPACE%\\jmeter\\test-plans\\notes_load_test.jmx" ^
                 -l "%WORKSPACE%\\jmeter\\results\\result_01.jtl" ^
-                -e -o "%WORKSPACE%\\jmeter\\html-report\\run1"
+                -e -o "%WORKSPACE%\\jmeter\\html-report"
                 '''
             }
         }
 
-        stage('Allure Report Generation Check') {
+        stage('Allure Report Check') {
             steps {
                 bat '''
                 echo Checking Allure Results Folder
